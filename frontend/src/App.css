@@ -1,0 +1,122 @@
+.navbar {
+  background-color: #333; /* Set your desired background color */
+  padding: 2rem;
+}
+
+/* Style for the main navigation */
+.navbar-main {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Style for each navbar item */
+.navbar-item {
+  margin-right: 15px;
+  color: white; /* Set your desired text color */
+  cursor: pointer;
+  /* You can add more styles as needed, e.g., font-size, font-weight, etc. */
+}
+
+/* Hover effect for navbar items */
+.navbar-item:hover {
+  text-decoration: underline;
+}
+
+.home-body {
+  background-color: #f4f4f4; /* Set your desired background color */
+  padding: 20px;
+  text-align: center;
+  
+}
+
+/* Styles for the title */
+.home-body-title {
+  font-size: 36px;
+  color: #333; /* Set your desired title color */
+  margin-bottom: 10px;
+}
+
+/* Styles for paragraphs */
+.home-body-para {
+  font-size: 18px;
+  color: #666; /* Set your desired paragraph text color */
+  margin-bottom: 15px;
+}
+
+.sport-component {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+}
+
+/* Styles for the sport image */
+.sport-image {
+  width: 100px; /* Set your desired image width */
+  height: 100px; /* Set your desired image height */
+  /* Add any additional styles for the image, e.g., border, margin, etc. */
+}
+
+/* Styles for the title */
+.sport-badminton {
+  font-size: 18px;
+  color: #333; /* Set your desired title color */
+  margin-top: 10px;
+  /* Add any additional styles for the title, e.g., font-weight, margin-bottom, etc. */
+}
+
+.sport-component {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  margin-right: 70rem;
+}
+
+.sport-component:hover {
+  transform: scale(1.05);
+}
+
+/* Styles for the sport image */
+.sport-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+/* Styles for the title */
+.sport-badminton {
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+  /* You can add more styles as needed, e.g., font-weight, margin-bottom, etc. */
+}
+
+.sports {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed: space-between, space-evenly, etc. */
+  align-items: center;
+  flex-wrap: wrap; /* Allows items to wrap to the next line if the container is not wide enough */
+}
+
+/* Add margin to create space between components */
+.sport-component {
+  margin: 10px;
+  /* Your existing styles for sport-component */
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  color: #333;
+}
